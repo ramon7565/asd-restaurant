@@ -1,0 +1,31 @@
+!!!5
+%html{class:"no-js", lang:"es"}
+	%head
+		%meta{charset:"utf-8"}
+		%title ASD Restaurant
+		%meta{name:"description", content:""}
+		%meta{name:"viewport", content:"width=device-width, initial-scale=1"}
+		%link{:rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"}
+		%link{:rel => "stylesheet", :href => "css/bootstrap.css"}
+		%link{:rel => "stylesheet", :href => "https://fonts.googleapis.com/css?family=Dancing+Script|Lemonada|Lobster|Roboto"}
+		%link{:rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css"}
+		%link{:rel => "stylesheet", :href => "css/style.css"}
+		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
+	%body
+		.video-container
+			%video{autoplay:true, loop:true, poster:"videos/Drink-Sake/Snapshots/Drink-Sake.jpg"}
+				%source{src:"videos/Drink-Sake/MP4/Drink-Sake.mp4", type:"video/mp4"}
+				%source{src:"videos/Drink-Sake/WEBM/Drink-Sake.webm", type:"video/webm"}
+		.row.full-height.middle-xs.center-xs.relative.up
+			.col-xs-12
+				.box.white-text
+					%img{:src => "img/asd logo.png", :alt => "ASD Logo", width:200}
+					%h1.dancing-script.title.no-margin ASD Restaurant
+					%p#is-open Open now!!!
+			%nav.fixed.top.right.white-text#navigation#navigation
+				%ul.list-inline.navigation
+					%li Home
+					%li Menu
+					%li Gallery
+					%li Contact Us
+					%li Location
