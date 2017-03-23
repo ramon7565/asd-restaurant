@@ -155,6 +155,21 @@ video {
     .navigation li a:hover {
       text-decoration: none; }
 
+.full-width {
+  width: 100%; }
+
+.dark-grey {
+  background-color: #222; }
+
+.absolute {
+  position: absolute; }
+
+.bottom {
+  bottom: 0px; }
+
+.large-padding {
+  padding: 10px 15px; }
+
 /*
  * Hide visually and from screen readers
  */
