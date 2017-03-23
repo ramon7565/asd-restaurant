@@ -190,8 +190,20 @@ video {
     li {
         @extend .medium;
         padding: 5px 10px;
+        transition: all 0.4s;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        a {
+            color: white;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 }
+
 
 
 /*
