@@ -26,4 +26,5 @@
 				-menu = ["Home", "Menu", "Gallery", "Contact", "Location"]
 				%ul.list-inline.navigation
 					-menu.each do |item|
-						%li= item
+						%li
+							%a{:href => ""}= item
